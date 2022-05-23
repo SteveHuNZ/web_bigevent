@@ -39,7 +39,7 @@
 
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password" required lay-verify="required" placeholder="请输入密码-please enter pin number" autocomplete="off" class="layui-input">
+                    <input type="password" name="password" required lay-verify="required|pwd" placeholder="请输入密码-please enter pin number" autocomplete="off" class="layui-input" />
                 </div>
 
                 <!-- login button  -->
@@ -97,6 +97,8 @@
 
 
     </div>
+    <!-- insert the js of layui  -->
+    <script src="/assets/lib/layui/layui.all.js"></script>
     <!-- insert Jquery -->
     <script src="/assets/lib/jquery.js"></script>
     <!-- insert self-made js   -->
